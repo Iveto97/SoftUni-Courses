@@ -33,7 +33,7 @@ function attachEvents() {
             })
             
         }
-        fetch((URI, data));
+        const res = await fetch(URI, data);
         dataRef[0].value = '';
         dataRef[1].value = '';
     } 
