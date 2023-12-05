@@ -5,6 +5,8 @@ submitBtn.addEventListener('click', onSubmit);
 
 const tBodyRef = document.getElementById('results').children[1];
 
+create();
+
 function onSubmit(e) {
 e.preventDefault();
 tBodyRef.innerHTML = '';
